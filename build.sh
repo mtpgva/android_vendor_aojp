@@ -8,7 +8,7 @@ if [ ! -e ${PRODUCT_CONF} ]; then
   echo -e "\033[0;31m${PRODUCT_CONF} is not found.\033[0;39m"
   echo "Usage: build.sh [product name]"
   echo "  - [product name] is available below :"
-  echo -e "\033[0;36m"'    '`ls -1 vendor/aojp/products/ | cut -d . -f1`"\033[0;39m"
+  echo -e "\033[0;36m"'    '`ls -1 vendor/mtp/products/ | cut -d . -f1`"\033[0;39m"
   exit -1
 fi
 
